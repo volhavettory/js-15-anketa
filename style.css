@@ -1,0 +1,39 @@
+.wrapper {
+    width: 750px;
+    margin: 0 auto;
+    color: black;
+    font-size: 1.9rem;
+}
+
+input {
+    background: none;
+    border: 1px bly;
+    padding: 4px 2px;
+    background-color: orange;
+}
+
+input:active,
+select:active {
+    background: rgb(235, 223, 223);
+}
+
+button,
+select {
+    background: none;
+    border: 1px bly;
+    padding: 4px 2px;
+    background-color: rgb(0, 255, 68);
+    margin: 20px;
+}
+
+button:hover {
+    background: red;
+}
+
+button:active {
+    background: rgb(76, 0, 255);
+}
+
+.radio {
+    background: red;
+}
